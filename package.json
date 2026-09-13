@@ -1,0 +1,31 @@
+{
+  "name": "pi-gogs-cli",
+  "version": "1.0.0",
+  "description": "pi coding agent skill: gh-style CLI for self-hosted Gogs — repos, issues, labels over the Gogs API; pull requests via headless Web-UI form POSTs (Gogs has no PR API). Python 3 stdlib only, cross-platform",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "pi-skill",
+    "gogs",
+    "cli",
+    "git",
+    "self-hosted"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summerway/pi-gogs-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/summerway/pi-gogs-cli/issues"
+  },
+  "files": [
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "skills": ["./skills"]
+  }
+}
